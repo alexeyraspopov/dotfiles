@@ -1,0 +1,30 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    "babel-plugin-style-literal",
+    ["babel-plugin-module-resolver", { "root": ["./packages"] }],
+    [
+      "babel-plugin-auto-import",
+      {
+        "declarations": [
+          {
+            "default": "React",
+            "members": [
+              "useRef",
+              "useMemo",
+              "useState",
+              "useEffect",
+              "useReducer",
+              "useContext",
+              "useCallback",
+              "useLayoutEffect",
+              "Fragment",
+              "Suspense"
+            ],
+            "path": "react"
+          }
+        ]
+      }
+    ]
+  ]
+}
