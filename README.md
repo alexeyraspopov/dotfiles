@@ -22,3 +22,14 @@ I use inline styles to make prototyping process faster. Also data visualization
 requires dynamic styles that remain in JSX. Using JS object for styles is
 frustrating and introduce a lot of friction. This plugin allows writing CSS
 code that is converted to JS object in the build time.
+
+## ESLint Plugins
+
+### [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+
+A set of custom rules to improve React/JSX integration with ESLint.
+
+### [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
+
+A set of custom rules provided by React team to enhance the developer experience
+in using hooks.
