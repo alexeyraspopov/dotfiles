@@ -30,8 +30,8 @@
     [
       "@babel/plugin-transform-destructuring",
       {
-        loose: false,
-        selectiveLoose: [
+        "loose": false,
+        "selectiveLoose": [
           "useState",
           "useEffect",
           "useContext",
