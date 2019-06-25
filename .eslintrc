@@ -6,7 +6,6 @@
     "react/jsx-uses-vars": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-console": "warn",
     "no-debugger": "error",
     "no-unreachable": "error",
     "no-unused-vars": "error",
